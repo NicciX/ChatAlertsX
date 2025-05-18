@@ -1,0 +1,18 @@
+<Project Sdk="Dalamud.NET.Sdk/12.0.2">
+  <PropertyGroup>
+    <RootNamespace>ChatAlertsX</RootNamespace>
+    <AssemblyName>ChatAlertsX</AssemblyName>
+    <Version>2.2.1.11</Version>
+    <Product>ChatAlertsX</Product>
+    <Copyright>Copyright © 2025</Copyright>
+    <WarningLevel>4</WarningLevel>
+    <OutputPath>bin\$(Configuration)\</OutputPath>
+    <Platforms>x64;AnyCPU</Platforms>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="DotNext" Version="5.21.0" />
+    <PackageReference Include="NAudio" Version="1.10.0" />
+    <PackageReference Include="XivCommon" Version="9.0.0" />
+  </ItemGroup>
+</Project>
